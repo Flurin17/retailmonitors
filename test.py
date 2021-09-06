@@ -33,6 +33,21 @@ def log(msg):
     except:
         print("Can't save")
 
+def sendWebhook(Graphicscard):
+    hook = Webhook('https://discord.com/api/webhooks/857338362314489896/0Ql5rDTTo60xRE_16N8gXFH0485iZmdlJ_DJ1sqra4TWmolH4SCdJr73Y6ePVXMpKtUx')
+    embed = Embed(
+        description='Graphics Card changed',
+        color=0x5CDBF0,
+        timestamp='now'  # sets the timestamp to current time
+        )
+    embed.set_author(name=Graphicscard.name, url=Graphicscard.link)
+    embed.add_field(name='Price', value=str(Graphicscard.price))
+    embed.add_field(name='delivery', value=Graphicscard.delivery)
+    embed.set_thumbnail(Graphicscard.picture)
+    print(embed.fields)
+    hook.send(embed=embed)
+
+    log("Sent webhook")
 
 
 def find_all_products(allproducts):
@@ -50,6 +65,7 @@ def find_all_products(allproducts):
             price = 0.0
 
         card = Graphicscard(productId, name, url, price, delivery, picture)
+        sendWebhook(card)
         print(asdict(card))
   
 
@@ -73,6 +89,7 @@ def getProducts():
         
         if r.status_code == 200:
             find_all_products(r.json())
+            break
         else:
             print(r.status_code)
             print(r.text)
