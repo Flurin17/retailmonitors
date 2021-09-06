@@ -56,7 +56,7 @@ def find_all_products(allproducts):
 def getProducts():
     while True:
         try:
-            r = requests.get(
+            r = requests.post(
             url='https://www.digitec.ch/api/graphql',
             headers={
                 'user-agent': 'PostmanRuntime/7.28.4',
@@ -72,12 +72,7 @@ def getProducts():
             continue
         
         if r.status_code == 200:
-            try:
-                find_all_products(r.json)
-                break
-
-            except Exception as e:
-                log(f"Failed to grab userID {e}")
+            find_all_products(r.json())
         else:
             print(r.status_code)
             print(r.text)
