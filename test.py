@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass, asdict
 from threading import Thread
 import lxml
-from datetime import datetime, timedelta
+from datetime import datetime
 from dhooks import Webhook, Embed
 import requests
 import time
@@ -10,7 +10,8 @@ import pymongo
 import random
 
 from requests.models import Response
-
+import ctypes
+ctypes.windll.kernel32.SetConsoleTitleW("Digitec Monitoring")
 
 @dataclass
 class Graphicscard:
@@ -34,10 +35,10 @@ def log(msg):
         print("Can't save")
 
 def sendWebhook(Graphicscard):
-    hook = Webhook('https://discord.com/api/webhooks/857338362314489896/0Ql5rDTTo60xRE_16N8gXFH0485iZmdlJ_DJ1sqra4TWmolH4SCdJr73Y6ePVXMpKtUx')
+    hook = Webhook('https://discord.com/api/webhooks/884699851844112425/qxFB0dQnKlQ5Iidq_6b4L_cnXt4teXpGOdsNRrQmXXeP75VDYKbUvzn_skOZ7SUmFEfU')
     embed = Embed(
-        description='Graphics Card changed',
-        color=0x5CDBF0,
+        description='{} for {}'.format(Graphicscard["name"], str(Graphicscard["price"])),
+        color=0x00559d,
         timestamp='now'  # sets the timestamp to current time
         )
     embed.set_author(name=Graphicscard["name"], url=Graphicscard["link"])
@@ -45,6 +46,10 @@ def sendWebhook(Graphicscard):
     embed.add_field(name='delivery', value=Graphicscard["delivery"])
     embed.set_thumbnail(Graphicscard["picture"])
 
+
+    now = datetime.now()
+    dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+    embed.set_footer(text=f'DigitecMoni at {dt_string}', icon_url="https://www.digitec.ch/static/images/digitec/pwa/favicon-32x32.png?v=2")
     hook.send(embed=embed)
 
     log("Sent webhook for {}".format(Graphicscard["name"]))
@@ -70,7 +75,7 @@ class monitor:
             card = Graphicscard(productId, name, url, price, delivery, picture)
             #sendWebhook(card)
             self.allCards.append(asdict(card))
-            log(asdict(card)["name"])
+            log(f"{name} {price}")
   
 
     def getProducts(self):
@@ -85,7 +90,7 @@ class monitor:
                     'Connection': 'keep-alive',
                     str(random.choice(range(11111111111,99999999999))):str(random.choice(range(11111111111,99999999999)))
                 },
-                json=[{"operationName":"GET_PRODUCT_TYPE_PRODUCTS_AND_FILTERS","variables":{"productTypeId":106,"queryString":"oo=1&pdo=39-347%3A677785%7C39-347%3A677897%7C39-347%3A651564%7C39-347%3A651565%7C39-347%3A722095%7C39-347%3A722097%7C39-347%3A721845%7C39-347%3A721850%7C39-347%3A629038","offset":0,"limit":84,"sort":"BESTSELLER","siteId":"0","sectorId":1},"query":"query GET_PRODUCT_TYPE_PRODUCTS_AND_FILTERS($productTypeId: Int!, $queryString: String!, $offset: Int, $limit: Int, $sort: ProductSort, $siteId: String, $sectorId: Int) {  productType(id: $productTypeId) {    filterProductsV4(queryString: $queryString, offset: $offset, limit: $limit, sort: $sort, siteId: $siteId, sectorId: $sectorId) {      productCounts {        total        filteredTotal        __typename      }      productFilters {        filterGroupType        label        key        tooltip {          ...Tooltip          __typename        }        ...CheckboxFilterGroup        ...RangeSliderFilterGroup        __typename      }      products {        hasMore        resultsWithDefaultOffer {          ...ProductWithOffer          __typename        }        __typename      }      __typename    }    __typename  }}fragment Tooltip on Tooltip {  text  moreInformationLink  __typename}fragment CheckboxFilterGroup on CheckboxFilterGroupV2 {  filterOptions {    ...Filter    __typename  }  __typename}fragment RangeSliderFilterGroup on RangeSliderFilterGroupV2 {  dataPoints {    ...RangeSliderDataPoint    __typename  }  selectedRange {    min    max    __typename  }  optionIdentifierKey  unitAbbreviation  unitDisplayOrder  totalCount  fullRange {    min    max    __typename  }  stepSize  mergeInfo {    isBottomMerged    isTopMerged    __typename  }  __typename}fragment ProductWithOffer on ProductWithOffer {  mandatorSpecificData {    ...ProductMandatorSpecific    __typename  }  product {    ...ProductMandatorIndependent    __typename  }  offer {    ...ProductOffer    __typename  }  __typename}fragment Filter on Filter {  optionIdentifierKey  optionIdentifierValue  label  productCount  selected  tooltip {    ...Tooltip    __typename  }  __typename}fragment RangeSliderDataPoint on RangeSliderDataPoint {  value  productCount  __typename}fragment ProductMandatorSpecific on MandatorSpecificData {  isBestseller  isDeleted  showroomSites  sectorIds  __typename}fragment ProductMandatorIndependent on ProductV2 {  id  productId  name  nameProperties  productTypeId  productTypeName  brandId  brandName  averageRating  totalRatings  totalQuestions  isProductSet  images {    url    height    width    __typename  }  energyEfficiency {    energyEfficiencyColorType    energyEfficiencyLabelText    energyEfficiencyLabelSigns    energyEfficiencyImage {      url      height      width      __typename    }    __typename  }  seo {    seoProductTypeName    seoNameProperties    productGroups {      productGroup1      productGroup2      productGroup3      productGroup4      __typename    }    gtin    __typename  }  lowQualityImagePlaceholder  hasVariants  smallDimensions  basePrice {    priceFactor    value    __typename  }  __typename}fragment ProductOffer on OfferV2 {  id  productId  offerId  shopOfferId  price {    amountIncl    amountExcl    currency    fraction    __typename  }  deliveryOptions {    mail {      classification      futureReleaseDate      __typename    }    pickup {      siteId      classification      futureReleaseDate      __typename    }    detailsProvider {      productId      offerId      quantity      type      __typename    }    __typename  }  label  type  volumeDiscountPrices {    minAmount    price {      amountIncl      amountExcl      currency      __typename    }    isDefault    __typename  }  salesInformation {    numberOfItems    numberOfItemsSold    isEndingSoon    validFrom    __typename  }  incentiveText  isIncentiveCashback  isNew  isSalesPromotion  hideInProductDiscovery  canAddToBasket  hidePrice  insteadOfPrice {    type    price {      amountIncl      amountExcl      currency      fraction      __typename    }    __typename  }  minOrderQuantity  __typename}"}]
+                json=[{"operationName":"GET_PRODUCT_TYPE_PRODUCTS_AND_FILTERS","variables":{"productTypeId":106,"queryString":"oo=1&pdo=pdo=39-347%3A677785%7C39-347%3A681559%7C39-347%3A677897%7C39-347%3A651564%7C39-347%3A651565%7C39-347%3A722097%7C39-347%3A721845%7C39-347%3A721850%7C39-347%3A629038","offset":0,"limit":84,"sort":"BESTSELLER","siteId":"0","sectorId":1},"query":"query GET_PRODUCT_TYPE_PRODUCTS_AND_FILTERS($productTypeId: Int!, $queryString: String!, $offset: Int, $limit: Int, $sort: ProductSort, $siteId: String, $sectorId: Int) {  productType(id: $productTypeId) {    filterProductsV4(queryString: $queryString, offset: $offset, limit: $limit, sort: $sort, siteId: $siteId, sectorId: $sectorId) {      productCounts {        total        filteredTotal        __typename      }      productFilters {        filterGroupType        label        key        tooltip {          ...Tooltip          __typename        }        ...CheckboxFilterGroup        ...RangeSliderFilterGroup        __typename      }      products {        hasMore        resultsWithDefaultOffer {          ...ProductWithOffer          __typename        }        __typename      }      __typename    }    __typename  }}fragment Tooltip on Tooltip {  text  moreInformationLink  __typename}fragment CheckboxFilterGroup on CheckboxFilterGroupV2 {  filterOptions {    ...Filter    __typename  }  __typename}fragment RangeSliderFilterGroup on RangeSliderFilterGroupV2 {  dataPoints {    ...RangeSliderDataPoint    __typename  }  selectedRange {    min    max    __typename  }  optionIdentifierKey  unitAbbreviation  unitDisplayOrder  totalCount  fullRange {    min    max    __typename  }  stepSize  mergeInfo {    isBottomMerged    isTopMerged    __typename  }  __typename}fragment ProductWithOffer on ProductWithOffer {  mandatorSpecificData {    ...ProductMandatorSpecific    __typename  }  product {    ...ProductMandatorIndependent    __typename  }  offer {    ...ProductOffer    __typename  }  __typename}fragment Filter on Filter {  optionIdentifierKey  optionIdentifierValue  label  productCount  selected  tooltip {    ...Tooltip    __typename  }  __typename}fragment RangeSliderDataPoint on RangeSliderDataPoint {  value  productCount  __typename}fragment ProductMandatorSpecific on MandatorSpecificData {  isBestseller  isDeleted  showroomSites  sectorIds  __typename}fragment ProductMandatorIndependent on ProductV2 {  id  productId  name  nameProperties  productTypeId  productTypeName  brandId  brandName  averageRating  totalRatings  totalQuestions  isProductSet  images {    url    height    width    __typename  }  energyEfficiency {    energyEfficiencyColorType    energyEfficiencyLabelText    energyEfficiencyLabelSigns    energyEfficiencyImage {      url      height      width      __typename    }    __typename  }  seo {    seoProductTypeName    seoNameProperties    productGroups {      productGroup1      productGroup2      productGroup3      productGroup4      __typename    }    gtin    __typename  }  lowQualityImagePlaceholder  hasVariants  smallDimensions  basePrice {    priceFactor    value    __typename  }  __typename}fragment ProductOffer on OfferV2 {  id  productId  offerId  shopOfferId  price {    amountIncl    amountExcl    currency    fraction    __typename  }  deliveryOptions {    mail {      classification      futureReleaseDate      __typename    }    pickup {      siteId      classification      futureReleaseDate      __typename    }    detailsProvider {      productId      offerId      quantity      type      __typename    }    __typename  }  label  type  volumeDiscountPrices {    minAmount    price {      amountIncl      amountExcl      currency      __typename    }    isDefault    __typename  }  salesInformation {    numberOfItems    numberOfItemsSold    isEndingSoon    validFrom    __typename  }  incentiveText  isIncentiveCashback  isNew  isSalesPromotion  hideInProductDiscovery  canAddToBasket  hidePrice  insteadOfPrice {    type    price {      amountIncl      amountExcl      currency      fraction      __typename    }    __typename  }  minOrderQuantity  __typename}"}]
                 )
             except Exception as e:
                 log(e)
@@ -103,10 +108,14 @@ class monitor:
         if self.firstTime:
             self.allCardsOld = self.allCards
 
-        differentCards = [i for i in self.allCardsOld if i not in self.allCards]
+        differentCards = [i for i in self.allCards if i not in self.allCardsOld]
         log(differentCards)
         for differentCard in differentCards:
-            sendWebhook(differentCard)
+            if differentCard["delivery"] not in ["UNKNOWN", "LAUNCH"]:
+                sendWebhook(differentCard)
+            else:
+                log("Found Change but is bad {} {}".format(differentCard["name"],differentCard["delivery"]))
+
 
         self.allCardsOld = self.allCards
 
@@ -115,8 +124,7 @@ class monitor:
         while True:
             self.getProducts()
             self.compareCards()
-            time.sleep(1)
+            time.sleep(10)
             self.firstTime = False
-
 
 monitor().start()
