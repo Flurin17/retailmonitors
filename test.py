@@ -54,6 +54,11 @@ def sendWebhook(Graphicscard):
 
     log("Sent webhook for {}".format(Graphicscard["name"]))
 
+def sendEveryoneWebhook():
+    hook = Webhook('https://discord.com/api/webhooks/884699851844112425/qxFB0dQnKlQ5Iidq_6b4L_cnXt4teXpGOdsNRrQmXXeP75VDYKbUvzn_skOZ7SUmFEfU')
+    hook.send("@everyone")
+    log("Sent everyone webhook")
+
 class monitor:
     def __init__(self):
         pass
@@ -112,12 +117,48 @@ class monitor:
         log(differentCards)
         for differentCard in differentCards:
             if differentCard["delivery"] not in ["UNKNOWN", "LAUNCH"]:
+                worth = self.checkWorth(differentCard)
                 sendWebhook(differentCard)
+                if worth:
+                    sendEveryoneWebhook()
+                    self.startBot(differentCard["productId"])
+
             else:
                 log("Found Change but is bad {} {}".format(differentCard["name"],differentCard["delivery"]))
 
+    def checkWorth(self, differentCard):
+        if differentCard["delivery"] == "ONEDAY":
+            noSpace = differentCard["name"].replace(" ", "").lower()
 
-        self.allCardsOld = self.allCards
+            if "3070ti" in noSpace and 750 > int(differentCard["price"]):
+                return True
+
+            if "3070" in noSpace and "ti" not in noSpace and 750 > int(differentCard["price"]):
+                return True
+
+            if "3080" in noSpace and "ti" not in noSpace and 1200 > int(differentCard["price"]):
+                return True
+
+        return False
+
+    def startBot(self, cardId):
+        while True:
+            try:
+                r = requests.get(
+                url=f'http://84.73.201.41:5000/calixio/api/quicktask?module=digitec&url={cardId}',
+                headers={
+                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
+                })
+            except Exception as e:
+                log(e)
+                continue
+            
+            if r.status_code == 200:
+                log(f"Started Bot with {cardId}")
+                break
+            else:
+                log(r.status_code)
+                log(r.text)
 
     def start(self):
         self.firstTime = True
