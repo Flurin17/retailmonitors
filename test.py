@@ -9,7 +9,6 @@ import time
 import pymongo
 import random
 
-from requests.models import Response
 import ctypes
 ctypes.windll.kernel32.SetConsoleTitleW("Digitec Monitoring")
 
@@ -28,7 +27,7 @@ def log(msg):
     logmsg = "[{0}]: {1}".format(datetime.now(), msg)
     try:
         print(logmsg)
-        logmsg = logmsg + ""
+        logmsg = logmsg + "\n"
         with open ('logging.txt', 'a', newline="") as f:
             f.write(logmsg)
     except:
@@ -44,6 +43,7 @@ def sendWebhook(Graphicscard):
     embed.set_author(name=Graphicscard["name"], url=Graphicscard["link"])
     embed.add_field(name='Price', value=str(Graphicscard["price"]))
     embed.add_field(name='delivery', value=Graphicscard["delivery"])
+    embed.add_field(name='IOS Retards', value=Graphicscard["link"])
     embed.set_thumbnail(Graphicscard["picture"])
 
 
@@ -84,7 +84,7 @@ class monitor:
                 r = requests.post(
                 url='https://www.digitec.ch/api/graphql',
                 headers={
-                    'user-agent': 'PostmanRuntime/7.28.4',
+                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
                     'Accept': '*/*',
                     'Accept-Encoding': 'gzip, deflate, br',
                     'Connection': 'keep-alive',
