@@ -151,7 +151,8 @@ class monitor:
                 })
             except Exception as e:
                 log(e)
-                continue
+                log("Failed to Reach Bot")
+                break
             
             if r.status_code == 200:
                 log(f"Started Bot with {cardId}")
@@ -159,6 +160,8 @@ class monitor:
             else:
                 log(r.status_code)
                 log(r.text)
+                log("Failed to Reach Bot")
+                break
 
     def start(self):
         self.firstTime = True
