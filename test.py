@@ -125,6 +125,8 @@ class monitor:
 
             else:
                 log("Found Change but is bad {} {}".format(differentCard["name"],differentCard["delivery"]))
+        self.allCardsOld = self.allCards
+        
 
     def checkWorth(self, differentCard):
         if differentCard["delivery"] == "ONEDAY":
