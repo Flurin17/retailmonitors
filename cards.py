@@ -10,7 +10,7 @@ import pymongo
 import random
 
 import ctypes
-ctypes.windll.kernel32.SetConsoleTitleW("Digitec Monitoring")
+ctypes.windll.kernel32.SetConsoleTitleW("Digitec Monitoring | Graphicscards")
 
 @dataclass
 class Graphicscard:
