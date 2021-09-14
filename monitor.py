@@ -52,6 +52,7 @@ class monitor:
         for product in allProducts:
             productId = product["product"]["productId"]
             name = product["product"]["name"]
+            name = product["product"]["brandName"] + " " + name
             url = "https://www.digitec.ch/product/{}".format(product["offer"]["productId"])
             picture = product["product"]["images"][0]["url"]
             delivery = product["offer"]["deliveryOptions"]["mail"]["classification"]
