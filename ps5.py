@@ -130,7 +130,11 @@ class monitor:
         while True:
             self.getProducts()
             self.compareCards()
+<<<<<<< HEAD
             time.sleep(5)
+=======
+            time.sleep(10)
+>>>>>>> 622e0dee79d16672cf1c9141d6efde7cbc64cf02
             self.firstTime = False
 
 monitor().start()

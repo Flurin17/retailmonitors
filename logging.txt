@@ -1,0 +1,441 @@
+[2021-09-07 10:21:04.394202]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-07 10:21:04.394202]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-07 10:21:04.395202]: GeForce RTX 3090 GAMING X TRIO 24G 2499.0
+[2021-09-07 10:21:04.395202]: GeForce RTX 3080 Ti VENTUS 3X 12G OC 1890.0
+[2021-09-07 10:21:04.396204]: GeForce RTX 3080 Ti SG 1-Click OC 1858.0
+[2021-09-07 10:21:04.396204]: GeForce RTX 3080 Ti EAGLE 12G LHR 1599.0
+[2021-09-07 10:21:04.396204]: AORUS GeForce RTX 3080 Ti XTREME 12G LHR 1899.0
+[2021-09-07 10:21:04.397206]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-07 10:21:04.397206]: GeForce RTX 3060 Ti EAGLE OC 8G LHR 649.0
+[2021-09-07 10:21:04.397206]: GAMING GeForce RTX 3090 ArcticStorm 2649.0
+[2021-09-07 10:21:04.398203]: GeForce RTX 3090 AORUS XTREME Waterforce 24G 2479.0
+[2021-09-07 10:21:04.398203]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-07 10:21:04.398203]: GeForce ROG STRIX RTX 3090 O24G-GAMING 2599.0
+[2021-09-07 10:21:04.399205]: GeForce RTX 3080 Trinity Gaming AMP Holo LHR 0.0
+[2021-09-07 10:21:04.399205]: GeForce RTX 3090 24G EK 2499.0
+[2021-09-07 10:21:04.399205]: GeForce RTX 3060 Ti GAMING OC PRO 8G 859.0
+[2021-09-07 10:21:04.400205]: GeForce RTX 3080 Ti FTW3 ULTRA 3248.0
+[2021-09-07 10:21:04.400205]: GeForce RTX 3090 Phantom 2513.7
+[2021-09-07 10:21:04.401206]: GeForce RTX 3070 Ti Eagle 8G 0.0
+[2021-09-07 10:21:04.401206]: GAMING GEFORCE RTX 3090 TRINITY OC 2393.0
+[2021-09-07 10:21:04.402205]: GeForce RTX 3080 Sea Hawk X 10G LHR, 10240 MB GDDR6X 1756.0
+[2021-09-07 10:21:04.402205]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-07 10:21:04.402205]: GeForce ROG STRIX RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-07 10:21:04.403205]: GeForce RTX 3080 Ti iChill X4 LHR, 12288 MB GDDR6X 1745.0
+[2021-09-07 10:21:04.403205]: GeForce RTX 3080 Trinity Gaming OC LHR 0.0
+[2021-09-07 10:21:04.403205]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-07 10:21:04.404204]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-07 10:21:04.404204]: GeForce RTX 3090 VENTUS 3X 24G OC 0.0
+[2021-09-07 10:21:04.404204]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-07 10:21:04.405207]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-07 10:21:04.405207]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-07 10:21:04.406208]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-07 10:21:04.406208]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-07 10:21:04.406208]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-07 10:21:04.407204]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-07 10:21:04.407204]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0[2021-09-14 13:45:43.714587]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:45:43.717587]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:45:43.717587]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:45:43.717587]: GeForce RTX 3080 Ti FTW3 ULTRA 3144.0
+[2021-09-14 13:45:43.717587]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1924.0
+[2021-09-14 13:45:43.718589]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:45:43.718589]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:45:43.718589]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:45:43.718589]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:45:43.718589]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:45:43.719589]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:45:43.719589]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:45:43.719589]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:45:43.719589]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:45:43.719589]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:45:43.720588]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:45:43.720588]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:45:43.720588]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:45:43.720588]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:45:43.720588]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:45:43.721589]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:45:43.721589]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:45:43.722588]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:45:43.722588]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:45:43.722588]: []
+[2021-09-14 13:46:02.869160]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:46:02.869160]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:46:02.870160]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:46:02.870160]: GeForce RTX 3080 Ti FTW3 ULTRA 1.0
+[2021-09-14 13:46:02.870160]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1.0
+[2021-09-14 13:46:02.870160]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:46:02.871162]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:46:02.871162]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:46:02.871162]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:46:02.872162]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:46:02.872162]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:46:02.872162]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:46:02.873162]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:46:02.873162]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:46:02.873162]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:46:02.874162]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:46:02.874162]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:46:02.874162]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:46:02.875162]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:46:02.875162]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:46:02.875162]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:46:02.876165]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:46:02.876165]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:46:02.876165]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:46:02.877165]: [{'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 15950007, 'name': 'GeForce RTX 3080 Ti FTW3 ULTRA', 'link': 'https://www.digitec.ch/product/15950007', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/3/6/9/8/12G-P5-3967-KR_XL_3.jpg'}, {'productId': 16371659, 'name': 'GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR', 'link': 'https://www.digitec.ch/product/16371659', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/3/8/7/7/3/gcev-468_gcev_468_02.jpg'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}]
+[2021-09-14 13:46:02.881163]: GeForce+RTX+3080+Ti+SUPRIM+X+12G
+[2021-09-14 13:51:07.661768]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:51:07.662772]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:51:07.662772]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:51:07.663773]: GeForce RTX 3080 Ti FTW3 ULTRA 3144.0
+[2021-09-14 13:51:07.663773]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1924.0
+[2021-09-14 13:51:07.664773]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:51:07.664773]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:51:07.665774]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:51:07.665774]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:51:07.665774]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:51:07.666772]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:51:07.666772]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:51:07.666772]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:51:07.667771]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:51:07.667771]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:51:07.667771]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:51:07.668772]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:51:07.668772]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:51:07.668772]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:51:07.669772]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:51:07.669772]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:51:07.670772]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:51:07.670772]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:51:07.671774]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:51:07.671774]: []
+[2021-09-14 13:51:27.852895]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:51:27.853896]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:51:27.853896]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:51:27.853896]: GeForce RTX 3080 Ti FTW3 ULTRA 1.0
+[2021-09-14 13:51:27.854896]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1.0
+[2021-09-14 13:51:27.854896]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:51:27.855898]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:51:27.855898]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:51:27.856897]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:51:27.856897]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:51:27.856897]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:51:27.857897]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:51:27.857897]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:51:27.857897]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:51:27.858897]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:51:27.858897]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:51:27.859897]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:51:27.859897]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:51:27.859897]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:51:27.860898]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:51:27.860898]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:51:27.861898]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:51:27.861898]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:51:27.861898]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:51:27.862897]: [{'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 15950007, 'name': 'GeForce RTX 3080 Ti FTW3 ULTRA', 'link': 'https://www.digitec.ch/product/15950007', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/3/6/9/8/12G-P5-3967-KR_XL_3.jpg'}, {'productId': 16371659, 'name': 'GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR', 'link': 'https://www.digitec.ch/product/16371659', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/3/8/7/7/3/gcev-468_gcev_468_02.jpg'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}]
+[2021-09-14 13:51:27.867895]: GeForce+RTX+3080+Ti+SUPRIM+X+12G
+[2021-09-14 13:51:28.493896]: Sent webhook for GeForce RTX 3080 Ti SUPRIM X 12G
+[2021-09-14 13:52:34.169371]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:52:34.169371]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:52:34.169371]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:52:34.170373]: GeForce RTX 3080 Ti FTW3 ULTRA 3144.0
+[2021-09-14 13:52:34.170373]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1924.0
+[2021-09-14 13:52:34.171379]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:52:34.172376]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:52:34.172376]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:52:34.173375]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:52:34.173375]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:52:34.173375]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:52:34.174375]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:52:34.174375]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:52:34.175376]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:52:34.175376]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:52:34.176374]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:52:34.176374]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:52:34.176374]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:52:34.177375]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:52:34.177375]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:52:34.177375]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:52:34.178374]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:52:34.178374]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:52:34.179375]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:52:34.179375]: []
+[2021-09-14 13:52:52.322072]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:52:52.323073]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:52:52.323073]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:52:52.323073]: GeForce RTX 3080 Ti FTW3 ULTRA 1.0
+[2021-09-14 13:52:52.324075]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1.0
+[2021-09-14 13:52:52.324075]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:52:52.324075]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:52:52.325075]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:52:52.325075]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:52:52.326076]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:52:52.326076]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:52:52.326076]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:52:52.327076]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:52:52.327076]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:52:52.327076]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:52:52.328074]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:52:52.328074]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:52:52.329074]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:52:52.329074]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:52:52.330075]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:52:52.330075]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:52:52.330075]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:52:52.331077]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:52:52.331077]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:52:52.332076]: [{'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 15950007, 'name': 'GeForce RTX 3080 Ti FTW3 ULTRA', 'link': 'https://www.digitec.ch/product/15950007', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/3/6/9/8/12G-P5-3967-KR_XL_3.jpg'}, {'productId': 16371659, 'name': 'GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR', 'link': 'https://www.digitec.ch/product/16371659', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/3/8/7/7/3/gcev-468_gcev_468_02.jpg'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}]
+[2021-09-14 13:52:52.335074]: GeForce+RTX+3080+Ti+SUPRIM+X+12G
+[2021-09-14 13:52:52.900073]: Sent webhook for GeForce RTX 3080 Ti SUPRIM X 12G
+[2021-09-14 13:52:52.902074]: GeForce+RTX+3080+SG+1-Click+OC
+[2021-09-14 13:52:53.442073]: Sent webhook for GeForce RTX 3080 SG 1-Click OC
+[2021-09-14 13:52:53.797074]: Sent everyone webhook
+[2021-09-14 13:52:53.799076]: GeForce+RTX+3080+Ti+GAMING+OC+12G+LHR
+[2021-09-14 13:52:54.500128]: Sent webhook for GeForce RTX 3080 Ti GAMING OC 12G LHR
+[2021-09-14 13:52:54.502130]: GeForce+RTX+3080+Ti+FTW3+ULTRA
+[2021-09-14 13:52:55.061458]: Sent webhook for GeForce RTX 3080 Ti FTW3 ULTRA
+[2021-09-14 13:52:55.062459]: GeForce+RTX+3080+Ti+XC3+Ultra+Hybrid+Gaming+LHR
+[2021-09-14 13:52:55.696063]: Sent webhook for GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR
+[2021-09-14 13:52:55.698065]: GeForce+RTX+3080+Ti+SG+1-Click+OC
+[2021-09-14 13:52:56.362066]: Sent webhook for GeForce RTX 3080 Ti SG 1-Click OC
+[2021-09-14 13:52:56.364063]: GeForce+RTX+3060+EX+OC
+[2021-09-14 13:52:57.168341]: Sent webhook for GeForce RTX 3060 EX OC
+[2021-09-14 13:52:57.170345]: GeForce+RTX+3080+Gaming+OC+Waterforce+WB+10G+LHR
+[2021-09-14 13:52:57.992388]: Sent webhook for GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR
+[2021-09-14 13:52:58.289389]: Sent everyone webhook
+[2021-09-14 13:52:58.291391]: GeForce+TUF+RTX+3080+O10G+V2+GAMING
+[2021-09-14 13:52:59.042391]: Sent webhook for GeForce TUF RTX 3080 O10G V2 GAMING
+[2021-09-14 13:52:59.411388]: Sent everyone webhook
+[2021-09-14 13:52:59.412391]: GeForce+RTX+3060+GAMING+OC+12G
+[2021-09-14 13:53:00.255390]: Sent webhook for GeForce RTX 3060 GAMING OC 12G
+[2021-09-14 13:53:00.257390]: Found Change but is bad GeForce RTX 3060 Ti Gaming OC Pro 8G LHR LAUNCH
+[2021-09-14 13:53:00.258389]: GeForce+RTX+3090+VENTUS+3X+24G+OC
+[2021-09-14 13:53:00.809388]: Sent webhook for GeForce RTX 3090 VENTUS 3X 24G OC
+[2021-09-14 13:53:00.811389]: GeForce+RTX+3080+Trinity+Gaming+LHR
+[2021-09-14 13:53:01.632909]: Sent webhook for GeForce RTX 3080 Trinity Gaming LHR
+[2021-09-14 13:53:01.634909]: Found Change but is bad GeForce ROG STRIX RTX 3080 O10G V2 GAMING LAUNCH
+[2021-09-14 13:53:01.634909]: Found Change but is bad GeForce RTX 3080 Ti iChill X4 LHR LAUNCH
+[2021-09-14 13:53:01.634909]: Found Change but is bad GeForce RTX 3070 Dual Fan UNKNOWN
+[2021-09-14 13:53:01.635911]: GeForce+TUF+RTX+3070+O8G+V2+GAMING
+[2021-09-14 13:53:02.691910]: Sent webhook for GeForce TUF RTX 3070 O8G V2 GAMING
+[2021-09-14 13:53:02.693910]: GeForce+TUF+RTX+3070+Ti+8G-GAMING
+[2021-09-14 13:53:03.372909]: Sent webhook for GeForce TUF RTX 3070 Ti 8G-GAMING
+[2021-09-14 13:53:03.374912]: Found Change but is bad GeForce RTX 3080 Ti XC3 LAUNCH
+[2021-09-14 13:53:03.374912]: Found Change but is bad GeForce RTX 3080 Ti XC3 BLACK LAUNCH
+[2021-09-14 13:53:03.375911]: Found Change but is bad GeForce RTX 3080 Ti FTW3 LAUNCH
+[2021-09-14 13:53:03.375911]: Found Change but is bad GeForce ROG  STRIX RTX 3070 O8G V2 WHITE LAUNCH
+[2021-09-14 13:53:03.375911]: Found Change but is bad GeForce RTX 3080 Ti XC3 ULTRA LAUNCH
+[2021-09-14 13:53:03.376912]: Found Change but is bad GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING LAUNCH
+[2021-09-14 13:53:22.575654]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:53:22.575654]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:53:22.576656]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:53:22.576656]: GeForce RTX 3080 Ti FTW3 ULTRA 1.0
+[2021-09-14 13:53:22.577657]: GeForce RTX 3080 Ti XC3 Ultra Hybrid Gaming LHR 1.0
+[2021-09-14 13:53:22.577657]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:53:22.577657]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:53:22.578657]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:53:22.578657]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:53:22.579658]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:53:22.579658]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:53:22.580658]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:53:22.581659]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:53:22.581659]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:53:22.581659]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:53:22.582658]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:53:22.582658]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:53:22.582658]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:53:22.583656]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:53:22.583656]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:53:22.584657]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:53:22.584657]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:53:22.585658]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:53:22.585658]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:53:22.586661]: []
+[2021-09-14 13:55:25.402440]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:55:25.402440]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:55:25.403443]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:55:25.403443]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:55:25.403443]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:55:25.404446]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:55:25.404446]: AORUS GeForce RTX 3070 MASTER 8G LHR 922.0
+[2021-09-14 13:55:25.404446]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:55:25.404446]: GeForce RTX 3060 OC 749.0
+[2021-09-14 13:55:25.404446]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:55:25.405442]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:55:25.405442]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:55:25.405442]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:55:25.405442]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:55:25.406442]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:55:25.406442]: GeForce RTX 3080 Ti iChill X3 LHR 2212.0
+[2021-09-14 13:55:25.406442]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:55:25.406442]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:55:25.407441]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:55:25.407441]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:55:25.407441]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:55:25.407441]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:55:25.408442]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:55:25.408442]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:55:25.409443]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:55:25.409443]: []
+[2021-09-14 13:55:45.666437]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:55:45.667438]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:55:45.667438]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:55:45.668440]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:55:45.668440]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:55:45.668440]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:55:45.669442]: AORUS GeForce RTX 3070 MASTER 8G LHR 1.0
+[2021-09-14 13:55:45.669442]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:55:45.670442]: GeForce RTX 3060 OC 1.0
+[2021-09-14 13:55:45.670442]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:55:45.671440]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:55:45.671440]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:55:45.671440]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:55:45.672441]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:55:45.672441]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:55:45.672441]: GeForce RTX 3080 Ti iChill X3 LHR 1.0
+[2021-09-14 13:55:45.673441]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:55:45.673441]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:55:45.673441]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:55:45.674439]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:55:45.674439]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:55:45.675440]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:55:45.675440]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:55:45.675440]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:55:45.676439]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:55:45.676439]: [{'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 16561483, 'name': 'AORUS GeForce RTX 3070 MASTER 8G LHR', 'link': 'https://www.digitec.ch/product/16561483', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/5/5/8/2/0/8/92768137_3166235355.jpg'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 14888803, 'name': 'GeForce RTX 3060 OC', 'link': 'https://www.digitec.ch/product/14888803', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/6/8/5/1/3/4/DSC_0183_K2.png'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16512836, 'name': 'GeForce RTX 3080 Ti iChill X3 LHR', 'link': 'https://www.digitec.ch/product/16512836', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/3/7/0/4/8/9/gci3-192_gci3_192_01.jpg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}]
+[2021-09-14 13:55:45.679439]: GeForce+RTX+3080+SG+1-Click+OC
+[2021-09-14 13:57:11.622632]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:57:11.623632]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:57:11.623632]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:57:11.624637]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:57:11.624637]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:57:11.624637]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:57:11.625634]: AORUS GeForce RTX 3070 MASTER 8G LHR 922.0
+[2021-09-14 13:57:11.625634]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:57:11.625634]: GeForce RTX 3060 OC 749.0
+[2021-09-14 13:57:11.626637]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:57:11.626637]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:57:11.627635]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:57:11.627635]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:57:11.627635]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:57:11.628634]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:57:11.628634]: GeForce RTX 3080 Ti iChill X3 LHR 2212.0
+[2021-09-14 13:57:11.629637]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:57:11.629637]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:57:11.629637]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:57:11.630638]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:57:11.630638]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:57:11.630638]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:57:11.631634]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:57:11.631634]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:57:11.632635]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:57:11.632635]: []
+[2021-09-14 13:57:20.798641]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:57:20.799640]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:57:20.799640]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:57:20.800646]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:57:20.800646]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:57:20.800646]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:57:20.801642]: AORUS GeForce RTX 3070 MASTER 8G LHR 1.0
+[2021-09-14 13:57:20.801642]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:57:20.802643]: GeForce RTX 3060 OC 1.0
+[2021-09-14 13:57:20.802643]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:57:20.803643]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:57:20.803643]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:57:20.804644]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:57:20.804644]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:57:20.804644]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:57:20.805642]: GeForce RTX 3080 Ti iChill X3 LHR 1.0
+[2021-09-14 13:57:20.805642]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:57:20.805642]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:57:20.806643]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:57:20.806643]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:57:20.807642]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:57:20.807642]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:57:20.808642]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:57:20.808642]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:57:20.809643]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:57:20.809643]: [{'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 16561483, 'name': 'AORUS GeForce RTX 3070 MASTER 8G LHR', 'link': 'https://www.digitec.ch/product/16561483', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/5/5/8/2/0/8/92768137_3166235355.jpg'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 14888803, 'name': 'GeForce RTX 3060 OC', 'link': 'https://www.digitec.ch/product/14888803', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/6/8/5/1/3/4/DSC_0183_K2.png'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16512836, 'name': 'GeForce RTX 3080 Ti iChill X3 LHR', 'link': 'https://www.digitec.ch/product/16512836', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/3/7/0/4/8/9/gci3-192_gci3_192_01.jpg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}]
+[2021-09-14 13:57:20.813643]: GeForce+RTX+3080+SG+1-Click+OC
+[2021-09-14 13:58:42.394268]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 13:58:42.395268]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 13:58:42.395268]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 13:58:42.396270]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:58:42.396270]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 13:58:42.397272]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 13:58:42.397272]: AORUS GeForce RTX 3070 MASTER 8G LHR 922.0
+[2021-09-14 13:58:42.398271]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 13:58:42.398271]: GeForce RTX 3060 OC 749.0
+[2021-09-14 13:58:42.398271]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 13:58:42.399270]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 13:58:42.399270]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 13:58:42.400270]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 13:58:42.400270]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 13:58:42.400270]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 13:58:42.401270]: GeForce RTX 3080 Ti iChill X3 LHR 2212.0
+[2021-09-14 13:58:42.401270]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 13:58:42.402275]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 13:58:42.402275]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 13:58:42.402275]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 13:58:42.403273]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 13:58:42.403273]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 13:58:42.404276]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 13:58:42.404276]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 13:58:42.404276]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 13:58:42.405272]: []
+[2021-09-14 13:58:53.584967]: GeForce RTX 3080 SG 1-Click OC 1.0
+[2021-09-14 13:58:53.585969]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1.0
+[2021-09-14 13:58:53.585969]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1.0
+[2021-09-14 13:58:53.586976]: GeForce TUF RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:58:53.586976]: GeForce RTX 3080 Ti SUPRIM X 12G 1.0
+[2021-09-14 13:58:53.587971]: GeForce RTX 3080 Ti SG 1-Click OC 1.0
+[2021-09-14 13:58:53.587971]: AORUS GeForce RTX 3070 MASTER 8G LHR 1.0
+[2021-09-14 13:58:53.588971]: GeForce RTX 3060 EX OC 1.0
+[2021-09-14 13:58:53.588971]: GeForce RTX 3060 OC 1.0
+[2021-09-14 13:58:53.589971]: GeForce TUF RTX 3070 O8G V2 GAMING 1.0
+[2021-09-14 13:58:53.589971]: GeForce TUF RTX 3070 Ti 8G-GAMING 1.0
+[2021-09-14 13:58:53.589971]: GeForce RTX 3080 Trinity Gaming LHR 1.0
+[2021-09-14 13:58:53.590973]: GeForce RTX 3090 VENTUS 3X 24G OC 1.0
+[2021-09-14 13:58:53.590973]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 1.0
+[2021-09-14 13:58:53.590973]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 1.0
+[2021-09-14 13:58:53.591969]: GeForce RTX 3080 Ti iChill X3 LHR 1.0
+[2021-09-14 13:58:53.591969]: GeForce RTX 3080 Ti iChill X4 LHR 1.0
+[2021-09-14 13:58:53.591969]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 1.0
+[2021-09-14 13:58:53.592970]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 1.0
+[2021-09-14 13:58:53.592970]: GeForce RTX 3080 Ti XC3 BLACK 1.0
+[2021-09-14 13:58:53.592970]: GeForce RTX 3080 Ti XC3 1.0
+[2021-09-14 13:58:53.593971]: GeForce RTX 3080 Ti XC3 ULTRA 1.0
+[2021-09-14 13:58:53.593971]: GeForce RTX 3080 Ti FTW3 1.0
+[2021-09-14 13:58:53.594971]: GeForce RTX 3070 Dual Fan 1.0
+[2021-09-14 13:58:53.594971]: GeForce RTX 3060 GAMING OC 12G 1.0
+[2021-09-14 13:58:53.594971]: [{'productId': 13821524, 'name': 'GeForce RTX 3080 SG 1-Click OC', 'link': 'https://www.digitec.ch/product/13821524', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/3/8/1/3/1/9/9/2/DSC_9316_K2.png'}, {'productId': 16522998, 'name': 'GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR', 'link': 'https://www.digitec.ch/product/16522998', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/4/1/1/5/8/8/gcgb-433_gcgb_433_02.jpg'}, {'productId': 16054333, 'name': 'GeForce RTX 3080 Ti GAMING OC 12G LHR', 'link': 'https://www.digitec.ch/product/16054333', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/7/3/1/7/5/4/92241536_5152488198.jpg'}, {'productId': 16209526, 'name': 'GeForce TUF RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209526', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/6/8/4/8/9/kkvq1llvtwoukaqf_setting_fff_1_90_end_1000.jpeg'}, {'productId': 15950523, 'name': 'GeForce RTX 3080 Ti SUPRIM X 12G', 'link': 'https://www.digitec.ch/product/15950523', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/6/8/2/7/msi-geforce_rtx_3080_Ti_suprim_x_12g-product_photo_2d1.png'}, {'productId': 16196839, 'name': 'GeForce RTX 3080 Ti SG 1-Click OC', 'link': 'https://www.digitec.ch/product/16196839', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/2/9/9/5/8/9/DSC_9316_K2.png'}, {'productId': 16561483, 'name': 'AORUS GeForce RTX 3070 MASTER 8G LHR', 'link': 'https://www.digitec.ch/product/16561483', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/5/5/8/2/0/8/92768137_3166235355.jpg'}, {'productId': 14888804, 'name': 'GeForce RTX 3060 EX OC', 'link': 'https://www.digitec.ch/product/14888804', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/4/7/2/7/4/9/0/productImage.jpg'}, {'productId': 14888803, 'name': 'GeForce RTX 3060 OC', 'link': 'https://www.digitec.ch/product/14888803', 'price': 1.0, 'delivery': 'WITHIN4DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/6/8/5/1/3/4/DSC_0183_K2.png'}, {'productId': 16209529, 'name': 'GeForce TUF RTX 3070 O8G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209529', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/6/3/Download.jpeg'}, {'productId': 16006777, 'name': 'GeForce TUF RTX 3070 Ti 8G-GAMING', 'link': 'https://www.digitec.ch/product/16006777', 'price': 1.0, 'delivery': 'WITHIN7DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/4/5/6/1/5/6/TUF-RTX3070TI-12G-GAMING_2D.png'}, {'productId': 16006181, 'name': 'GeForce RTX 3080 Trinity Gaming LHR', 'link': 'https://www.digitec.ch/product/16006181', 'price': 1.0, 'delivery': 'WITHIN17DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/5/3/4/5/9/2/zt-a30800d-10plhr-image02.jpg'}, {'productId': 13689635, 'name': 'GeForce RTX 3090 VENTUS 3X 24G OC', 'link': 'https://www.digitec.ch/product/13689635', 'price': 1.0, 'delivery': 'MORETHAN39DAYS', 'picture': 'https://static.digitecgalaxus.ch/Files/3/7/8/1/3/8/0/5/2._2d1.png'}, {'productId': 16375812, 'name': 'GeForce RTX 3060 Ti Gaming OC Pro 8G LHR', 'link': 'https://www.digitec.ch/product/16375812', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/8/5/4/6/0/3/gcgb-413_gcgb_413_01.jpg'}, {'productId': 16209525, 'name': 'GeForce ROG STRIX RTX 3080 O10G V2 GAMING', 'link': 'https://www.digitec.ch/product/16209525', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/3/4/1/9/ydsjewoqbd6lzx1r_setting_fff_1_90_end_1000.jpeg'}, {'productId': 16512836, 'name': 'GeForce RTX 3080 Ti iChill X3 LHR', 'link': 'https://www.digitec.ch/product/16512836', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/8/3/7/0/4/8/9/gci3-192_gci3_192_01.jpg'}, {'productId': 16255832, 'name': 'GeForce RTX 3080 Ti iChill X4 LHR', 'link': 'https://www.digitec.ch/product/16255832', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/3/4/4/5/5/6/gci3-190_gci3_190_01.jpg'}, {'productId': 16209527, 'name': 'GeForce ROG  STRIX RTX 3070 O8G V2 WHITE', 'link': 'https://www.digitec.ch/product/16209527', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/7/1/7/2/4/1/7/aHR0cDovL2Nkbi5jbmV0Y29udGVudC5jb20vZDkvY2EvZDljYTdmNmQtMjUxOS00MDA2LWEzYmUtNzgzMTAwMTEwYjlmLmpwZw.jpg'}, {'productId': 15950303, 'name': 'GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING', 'link': 'https://www.digitec.ch/product/15950303', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/8/7/6/3/9/ROG-Strix-LC-RTX3080TI_image1light.png'}, {'productId': 15950301, 'name': 'GeForce RTX 3080 Ti XC3 BLACK', 'link': 'https://www.digitec.ch/product/15950301', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/6/5/12G-P5-3951-KR_XL_2.jpg'}, {'productId': 15950300, 'name': 'GeForce RTX 3080 Ti XC3', 'link': 'https://www.digitec.ch/product/15950300', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/5/5/6/12G-P5-3953-KR_XL_2.jpg'}, {'productId': 15950261, 'name': 'GeForce RTX 3080 Ti XC3 ULTRA', 'link': 'https://www.digitec.ch/product/15950261', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/2/9/9/12G-P5-3955-KR_XL_2.jpg'}, {'productId': 15950246, 'name': 'GeForce RTX 3080 Ti FTW3', 'link': 'https://www.digitec.ch/product/15950246', 'price': 1.0, 'delivery': 'LAUNCH', 'picture': 'https://static.digitecgalaxus.ch/Files/4/6/1/4/4/1/9/8/12G-P5-3965-KR_XL_3.jpg'}, {'productId': 14340345, 'name': 'GeForce RTX 3070 Dual Fan', 'link': 'https://www.digitec.ch/product/14340345', 'price': 1.0, 'delivery': 'UNKNOWN', 'picture': 'https://static.digitecgalaxus.ch/Files/3/9/8/3/7/2/3/0/gcpn-077_gcpn_077_03.jpg'}, {'productId': 14788294, 'name': 'GeForce RTX 3060 GAMING OC 12G', 'link': 'https://www.digitec.ch/product/14788294', 'price': 1.0, 'delivery': 'ONEDAY', 'picture': 'https://static.digitecgalaxus.ch/Files/4/2/1/1/7/6/9/1/2.png'}]
+[2021-09-14 13:58:53.597970]: GeForce+RTX+3080+SG+1-Click+OC
+[2021-09-14 13:58:54.873498]: Sent webhook for GeForce RTX 3080 SG 1-Click OC
+[2021-09-14 13:58:55.146499]: Sent everyone webhook
+[2021-09-14 14:13:55.120709]: GeForce RTX 3080 SG 1-Click OC 1799.0
+[2021-09-14 14:13:55.121710]: GeForce RTX 3080 Gaming OC Waterforce WB 10G LHR 1323.0
+[2021-09-14 14:13:55.121710]: GeForce RTX 3080 Ti GAMING OC 12G LHR 1619.0
+[2021-09-14 14:13:55.121710]: GeForce TUF RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 14:13:55.122716]: GeForce RTX 3080 Ti SUPRIM X 12G 1939.0
+[2021-09-14 14:13:55.122716]: GeForce RTX 3080 Ti SG 1-Click OC 1749.0
+[2021-09-14 14:13:55.122716]: AORUS GeForce RTX 3070 MASTER 8G LHR 922.0
+[2021-09-14 14:13:55.122716]: GeForce RTX 3060 EX OC 1030.0
+[2021-09-14 14:13:55.122716]: GeForce RTX 3060 OC 749.0
+[2021-09-14 14:13:55.123713]: GeForce TUF RTX 3070 O8G V2 GAMING 0.0
+[2021-09-14 14:13:55.123713]: GeForce TUF RTX 3070 Ti 8G-GAMING 0.0
+[2021-09-14 14:13:55.123713]: GeForce RTX 3080 Trinity Gaming LHR 0.0
+[2021-09-14 14:13:55.123713]: GeForce RTX 3090 VENTUS 3X 24G OC 2299.0
+[2021-09-14 14:13:55.124714]: GeForce RTX 3060 Ti Gaming OC Pro 8G LHR 693.0
+[2021-09-14 14:13:55.124714]: GeForce ROG STRIX RTX 3080 O10G V2 GAMING 0.0
+[2021-09-14 14:13:55.124714]: GeForce RTX 3080 Ti iChill X3 LHR 2212.0
+[2021-09-14 14:13:55.124714]: GeForce RTX 3080 Ti iChill X4 LHR 1690.0
+[2021-09-14 14:13:55.124714]: GeForce ROG  STRIX RTX 3070 O8G V2 WHITE 0.0
+[2021-09-14 14:13:55.125710]: GeForce ROG STRIX LC RTX 3080 Ti 12G-GAMING 0.0
+[2021-09-14 14:13:55.125710]: GeForce RTX 3080 Ti XC3 BLACK 0.0
+[2021-09-14 14:13:55.125710]: GeForce RTX 3080 Ti XC3 0.0
+[2021-09-14 14:13:55.125710]: GeForce RTX 3080 Ti XC3 ULTRA 0.0
+[2021-09-14 14:13:55.125710]: GeForce RTX 3080 Ti FTW3 0.0
+[2021-09-14 14:13:55.126712]: GeForce RTX 3070 Dual Fan 0.0
+[2021-09-14 14:13:55.126712]: GeForce RTX 3060 GAMING OC 12G 892.99
+[2021-09-14 14:13:55.127713]: []
