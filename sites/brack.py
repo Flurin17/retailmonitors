@@ -24,7 +24,7 @@ class monitor:
 
         self.store = product["site"]
         randomString = str(random.randint(0, 10000))
-        self.log = logger(f"{self.product['site']}_{randomString}", self.store)
+        self.log = logger(f"{self.product['site']}_{randomString}", self.store, self.product["nickname"])
         pass
     
     def send_webhooks(self, product):

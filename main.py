@@ -58,9 +58,14 @@ class main():
 
         for site in self.sites:
 
-            #task changing stuf
-            site['delay'] = int(float(site['delay']))
-            webhooks = site['webhooks'].split(',')
+            #task changing stuff
+            print(site)
+            try:
+                site['delay'] = int(float(site['delay']))
+                webhooks = site['webhooks'].split(',')
+            except:
+                print(f">> FATAL ERROR: Could not parse site {site['site']}")
+                break
 
             if site["site"] == "boilerplate":
 

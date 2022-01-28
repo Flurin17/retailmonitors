@@ -27,12 +27,13 @@ class productTemplate:
 
 
 class logger:
-    def __init__(self, log_file, store):
+    def __init__(self, log_file, store, nickname):
         self.log_file = log_file
         self.store = store
+        self.nickname = nickname
 
     def info(self, msg):
-        logmsg = "[{}][{}]: {}".format(datetime.now(), self.store, msg)
+        logmsg = "[{}][{}][{}]: {}".format(datetime.now(), self.store, self.nickname, msg)
         try:
             logging.info(logmsg)
             logmsg = logmsg + "\n"
