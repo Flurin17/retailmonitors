@@ -1,0 +1,4 @@
+site,url,delay,webhooks
+brack,https://www.brack.ch/it-multimedia/pc-komponenten/grafikkarten/pc-grafikkarten?filter%5BattributeGroupFacet_grafikfamilie%5D%5B%5D=Nvidia%20GeForce%20RTX&sortProducts=newdesc&query=*,2,https://discord.com/api/webhooks/917137809775689728/f3m090VrJ7vpc_zCmoRFVmrv6bP2a_fLUWo9M5l7oMrkE_9ZLzW2NyX-wiatoFS-8wWN
+brack,https://www.brack.ch/it-multimedia/gaming/konsolen?filter%5BfacetManufacturerName%5D%5B%5D=Sony&limit=48&sortProducts=Beste%20Ergebnisse&query=*,2,https://discord.com/api/webhooks/917137809775689728/f3m090VrJ7vpc_zCmoRFVmrv6bP2a_fLUWo9M5l7oMrkE_9ZLzW2NyX-wiatoFS-8wWN
+digitec,oo=1&pdo=pdo=39-347%3A677785%7C39-347%3A681559%7C39-347%3A677897%7C39-347%3A651564%7C39-347%3A651565%7C39-347%3A722097%7C39-347%3A721845%7C39-347%3A721850%7C39-347%3A629038,2,https://discord.com/api/webhooks/917137809775689728/f3m090VrJ7vpc_zCmoRFVmrv6bP2a_fLUWo9M5l7oMrkE_9ZLzW2NyX-wiatoFS-8wWN

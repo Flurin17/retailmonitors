@@ -1,6 +1,7 @@
 import json
 from dataclasses import dataclass, asdict
 from threading import Thread
+from unicodedata import name
 import lxml
 from datetime import datetime
 from dhooks import Webhook, Embed
@@ -14,12 +15,24 @@ from bs4 import BeautifulSoup as soup
 
 import logging
 
-class logger:
-    def __init__(self, log_file):
-        self.log_file = log_file
+@dataclass
+class productTemplate:
+    name: str
+    link: str 
+    price: float
+    picture: str
+    store: str
 
-    def log(self, msg):
-        logmsg = "[{0}]: {1}".format(datetime.now(), msg)
+
+
+
+class logger:
+    def __init__(self, log_file, store):
+        self.log_file = log_file
+        self.store = store
+
+    def info(self, msg):
+        logmsg = "[{}][{}]: {}".format(datetime.now(), self.store, msg)
         try:
             logging.info(logmsg)
             logmsg = logmsg + "\n"
@@ -31,11 +44,11 @@ class logger:
     def sendEveryoneWebhook(self, webhook):
         hook = Webhook(webhook)
         hook.send("@everyone")
-        self.log("Sent everyone webhook")
+        self.info("Sent everyone webhook")
 
 
     def sendWebhook(self, product, webhook):
-        hook = Webhook(webhook)
+        hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png", username=product["store"])
         embed = Embed(
             description='{} for {}'.format(product["name"], str(product["price"])),
             color=0x00559d,
@@ -43,7 +56,6 @@ class logger:
             )
         embed.set_author(name=product["name"], url=product["link"])
         embed.add_field(name='Price', value=str(product["price"]))
-        embed.add_field(name='delivery', value=product["delivery"])
         embed.add_field(name='Links', value=product["link"])
         embed.set_thumbnail(product["picture"])
 
@@ -53,4 +65,27 @@ class logger:
         embed.set_footer(text=f'{product["store"]} at {dt_string}', icon_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
         hook.send(embed=embed)
 
-        self.log("Sent webhook for {}".format(product["name"]))
+        self.info("Sent webhook for {} on {}".format(product["name"], product["store"]))
+    
+
+
+class proxy:
+    def __init__(self):
+        self.proxyList = []
+
+    def format_proxies(self, proxies):
+        for proxy in proxies:
+            try:
+                ip = proxy.split(":")[0]
+                port = proxy.split(":")[1]
+                userpassproxy = '%s:%s' % (ip, port)
+                proxyuser = proxy.split(":")[2].rstrip()
+                proxypass = proxy.split(":")[3].rstrip()
+                parsedProxy = {'http': 'http://%s:%s@%s' % (proxyuser, proxypass, userpassproxy),
+                        'https': 'http://%s:%s@%s' % (proxyuser, proxypass, userpassproxy)}
+                self.proxyList.append(parsedProxy)
+            except:
+                parsedProxy = {'http': 'http://%s' % proxy, 'https': 'http://%s' % proxy}
+                self.proxyList.append(parsedProxy)
+                
+        return self.proxyList
