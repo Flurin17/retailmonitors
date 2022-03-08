@@ -75,8 +75,15 @@ class monitor:
             price = "Unknown"
 
             picture = "https:" + product.find_all("img")[0]['src']
-            available = product.find_all("font")[0]['color']
-            if available == "green":
+            try:
+                available = product.find_all("font")[0]['color']
+            except:
+                try:
+                    available = product.find_all("p")[0]['style']
+                except:
+                    available = "green"
+
+            if 'green' in available:
                 available = True
             else:
                 available = False
