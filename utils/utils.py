@@ -22,6 +22,7 @@ class productTemplate:
     price: float
     picture: str
     store: str
+    available: bool = False
 
 
 
@@ -68,6 +69,19 @@ class logger:
 
         self.info("Sent webhook for {} on {}".format(product["name"], product["store"]))
     
+    def sendBlankWebhook(self, webhook, link):
+        hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
+        embed = Embed(
+            description='New Product',
+            color=0x00559d,
+            timestamp='now'  # sets the timestamp to current time
+            )
+        embed.add_field(name='Links', value=link)
+
+
+        now = datetime.now()
+        hook.send(embed=embed)
+
 
 
 class proxy:
