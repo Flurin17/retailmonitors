@@ -1,9 +1,18 @@
 site,nickname,url,delay,webhooks
-wog,ps5,https://www.wog.ch/index.cfm/search/type/Games/term/PS5/orderBy/priceDesc/maxRows/100,5,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+wog,ps5,https://www.wog.ch/index.cfm/search/type/Games/term/PS5/orderBy/priceDesc/maxRows/69,20,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+wog,xbox,https://www.wog.ch/index.cfm/browse/platform/Xbox-Series/orderBy/priceDesc,20,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
 brack,cards,https://www.brack.ch/it-multimedia/pc-komponenten/grafikkarten/pc-grafikkarten?filter%5BattributeGroupFacet_grafikfamilie%5D%5B%5D=Nvidia%20GeForce%20RTX&sortProducts=Beste%20Ergebnisse&query=rtx,2,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
 brack,ps5,https://www.brack.ch/it-multimedia/gaming/konsolen?filter%5BfacetManufacturerName%5D%5B%5D=Sony&limit=48&sortProducts=Beste%20Ergebnisse&query=*,2,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
 digitec,ps5,"26,bra=7197&oo=1&pdo=358-21510%3A489327",2,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
-manor,ps5,10000583778,15,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
-manor,ps5,10001127709,15,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
-manor,ps5,10001002899,15,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
-manor,ps5,10000583779,15,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+manor,ps5,10000583778,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+manor,ps5_1,10001127709,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+manor,ps5-2,10001002899,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+manor,ps5_3,10000583779,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+preispirat,ps5 deals,https://www.preispirat.ch/?s=Playstation+5&post_type=post,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+preispirat,xbox,https://www.preispirat.ch/?s=xbox&post_type=post,10,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+steg,ps5,playstation 5,5,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+steg,xbox,xbox,5,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+softridge,ps5,https://www.softridge.ch/de/ps5/konsolen,5,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+softridge,xbox,https://www.softridge.ch/de/xsx/konsolen,5,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+mediamarkt,xbox,https://www.mediamarkt.ch/de/category/_xbox-series-x-konsolen-772154.html,3,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2
+mediamarkt,ps5,https://www.mediamarkt.ch/de/category/_ps5-konsolen-764508.html,3,https://discord.com/api/webhooks/950043717060935690/VD2XPtlVLcXhuSvY9kPIlv1b_HST5C82TnSI29SlfsGg7v0ss1DFxtGTf4hwT5-gzLy2

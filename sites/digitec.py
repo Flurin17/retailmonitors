@@ -49,7 +49,6 @@ class monitor:
         self.allCards = []
         allProducts = self.allproducts[0]["data"]["tag"]["filterProducts"]["products"]["results"]
         for product in allProducts:
-            productId = product["product"]["productId"]
             name = product["product"]["name"]
             url = "https://www.digitec.ch/product/{}".format(product["offer"]["productId"])
             picture = product["product"]["images"][0]["url"]

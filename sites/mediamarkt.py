@@ -43,7 +43,7 @@ class monitor:
         while True:
             try:
                 r = self.session.get(
-                url=self.product["url"] + random.choice(range(10, 1000)) * "/",
+                url=self.product["url"],
                 headers={
                     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
                     'Accept': '*/*',
@@ -67,18 +67,19 @@ class monitor:
 
     def find_all_products(self):
         self.allProducts =[]
-        self.products = self.soup.find_all("div", {"class":"news-community clearfix"})
+        self.products = self.soup.find_all("div", {"class":"product-wrapper"})
         for product in self.products:
-            url = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0]["href"]
-            name = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0].text
+            url = "https://www.mediamarkt.ch" + product.find_all("span", {"class":"photo clickable"})[0]['data-clickable-href']
+            name = product.find_all("img")[0]['alt']
             
-            try:
-                price = product.find_all("span", {"class":"price_count"})[0].find_all("span")[0].text
-            except:
-                price = "Unknown"
+            price = "Unknown"
 
-            picture = product.find_all("div", {"class":"newsimage"})[0].find_all("img")[0]["src"]
-            available = True
+            picture = "https:" + product.find_all("img")[0]['src']
+            available = product.find_all("font")[0]['color']
+            if available == "green":
+                available = True
+            else:
+                available = False
 
             products = productTemplate(name, url, price, picture, self.store, available)
             self.allProducts.append(asdict(products))

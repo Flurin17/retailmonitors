@@ -15,6 +15,10 @@ from sites.digitec import monitor as DigitecMonitor
 from sites.manor import monitor as ManorMonitor
 from sites.wog import monitor as WogMonitor
 from sites.preispirat import monitor as PreispiratMonitor
+from sites.steg import monitor as StegMonitor
+from sites.techmania import monitor as TechmaniaMonitor
+from sites.softridge import monitor as SoftridgeMonitor
+from sites.mediamarkt import monitor as MediamarktMonitor
 
 class main():
     def __init__(self) -> None:
@@ -70,7 +74,6 @@ class main():
                 break
 
             if site["site"] == "boilerplate":
-
                 try:
                     BoilerplateMonitor(site, webhooks, self.proxies).start()
 
@@ -80,7 +83,6 @@ class main():
 
 
             elif site["site"] == "brack":
-
                 try:
                     BrackMonitor(site, webhooks, self.proxies).start()
 
@@ -89,7 +91,6 @@ class main():
                     sys.exit()
 
             elif site["site"] == "digitec":
-
                 try:
                     DigitecMonitor(site, webhooks, self.proxies).start()
 
@@ -98,7 +99,6 @@ class main():
                     sys.exit()
 
             elif site["site"] == "manor":
-
                 try:
                     ManorMonitor(site, webhooks, self.proxies).start()
 
@@ -107,7 +107,6 @@ class main():
                     sys.exit()
                 
             elif site["site"] == "wog":
-
                 try:
                     WogMonitor(site, webhooks, self.proxies).start()
 
@@ -116,7 +115,6 @@ class main():
                     sys.exit()
 
             elif site["site"] == "preispirat":
-
                 try:
                     PreispiratMonitor(site, webhooks, self.proxies).start()
 
@@ -124,4 +122,35 @@ class main():
                     print(f">> FATAL ERROR: Could not start monitor {e}")
                     sys.exit()
 
+            elif site["site"] == "steg":
+                try:
+                    StegMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
+            elif site["site"] == "techmania":
+                try:
+                    TechmaniaMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
+            elif site["site"] == "softridge":
+                try:
+                    SoftridgeMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+                    
+            elif site["site"] == "mediamarkt":
+                try:
+                    MediamarktMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
 main().start()

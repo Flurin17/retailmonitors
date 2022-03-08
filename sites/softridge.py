@@ -67,18 +67,18 @@ class monitor:
 
     def find_all_products(self):
         self.allProducts =[]
-        self.products = self.soup.find_all("div", {"class":"news-community clearfix"})
+        self.products = self.soup.find_all("div", {"class":"Product Fog"})
         for product in self.products:
-            url = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0]["href"]
-            name = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0].text
+            url = product.find_all("div", {"class":"Features"})[0].find_all("a")[0]["href"]
+            name = product.find_all("div", {"class":"Features"})[0].find_all("a")[0].text
             
             try:
-                price = product.find_all("span", {"class":"price_count"})[0].find_all("span")[0].text
+                price = product.find_all("div", {"class":"Price"})[0].find_all("span")[0].text
             except:
                 price = "Unknown"
 
-            picture = product.find_all("div", {"class":"newsimage"})[0].find_all("img")[0]["src"]
-            available = True
+            picture = "https://www.softridge.ch" + product.find_all("div", {"class":"Cover"})[0].find_all("img")[0]["src"]
+            available = product.find_all("div", {"class":"Selling"})[0].find_all("div", {"class":"Availability"})[0].find_all("img")[0]['alt']
 
             products = productTemplate(name, url, price, picture, self.store, available)
             self.allProducts.append(asdict(products))
