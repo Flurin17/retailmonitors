@@ -45,7 +45,11 @@ class logger:
 
     def sendEveryoneWebhook(self, webhook):
         hook = Webhook(webhook)
-        hook.send("@everyone")
+        try:
+            hook.send("@everyone")
+        except:
+            self.info("Can't send webhook")
+            
         self.info("Sent everyone webhook")
 
 
@@ -65,7 +69,10 @@ class logger:
         now = datetime.now()
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
         embed.set_footer(text=f'{product["store"]} at {dt_string}', icon_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
-        hook.send(embed=embed)
+        try:
+            hook.send(embed=embed)
+        except:
+            self.info("Can't send webhook")
 
         self.info("Sent webhook for {} on {}".format(product["name"], product["store"]))
     
@@ -79,8 +86,10 @@ class logger:
         embed.add_field(name='Links', value=link)
 
 
-        now = datetime.now()
-        hook.send(embed=embed)
+        try:
+            hook.send(embed=embed)
+        except:
+            self.info("Can't send webhook")
 
 
 

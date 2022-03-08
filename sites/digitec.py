@@ -32,9 +32,9 @@ class monitor:
         self.filter = product['url'].split(",")[1]
         pass
     
-    def send_webhooks(self):
+    def send_webhooks(self, product):
         for webhook in self.webhooks:
-            self.log.sendWebhook(self.product, webhook)
+            self.log.sendWebhook(product, webhook)
 
     def load_proxies(self):
         if self.proxies != []:
@@ -117,7 +117,7 @@ class monitor:
         differentCards = [i for i in self.allCards if i not in self.allCardsOld]
         for differentCard in differentCards:
             self.log.info(differentCard)
-            if differentCard["delivery"] not in ["UNKNOWN", "LAUNCH"]:
+            if differentCard["available"]:
                 self.send_webhooks(differentCard)
 
             else:

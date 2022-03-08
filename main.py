@@ -14,6 +14,7 @@ from sites.brack import monitor as BrackMonitor
 from sites.digitec import monitor as DigitecMonitor
 from sites.manor import monitor as ManorMonitor
 from sites.wog import monitor as WogMonitor
+from sites.preispirat import monitor as PreispiratMonitor
 
 class main():
     def __init__(self) -> None:
@@ -109,6 +110,15 @@ class main():
 
                 try:
                     WogMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
+            elif site["site"] == "preispirat":
+
+                try:
+                    PreispiratMonitor(site, webhooks, self.proxies).start()
 
                 except Exception as e:
                     print(f">> FATAL ERROR: Could not start monitor {e}")

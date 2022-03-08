@@ -67,28 +67,21 @@ class monitor:
 
     def find_all_products(self):
         self.allProducts =[]
-        self.productsList = self.soup.find("div", {"id":"productListContainer"})
-        self.products = self.productsList.find_all("div", {"class":"tr"})
+        self.products = self.soup.find_all("div", {"class":"news-community clearfix"})
         for product in self.products:
-            url = product.find_all("a")[0]['href']
-            name = product.find_all("a")[0]['title']
-
-            price = product.find("div", {"class":"product-list-price"}).find("a").text
+            url = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0]["href"]
+            name = product.find_all("div", {"class":"newstitle"})[0].find_all("a")[0].text
             
-            picture = "https://www.wog.ch" + product.find("img")['src']
-
             try:
-                available = product.find("div", {"class":"product-list-price"}).find("div")['class']
-                if 'green' in available:
-                    available = True
-                else:
-                    available = False
+                price = product.find_all("span", {"class":"price_count"})[0].find_all("span")[0].text
             except:
-                available = False
+                price = "Unknown"
+
+            picture = product.find_all("div", {"class":"newsimage"})[0].find_all("img")[0]["src"]
+            available = True
 
             products = productTemplate(name, url, price, picture, self.store, available)
             self.allProducts.append(asdict(products))
-        del self.allProducts[1::2]
         self.log.info("Found {} products".format(len(self.allProducts)))
 
     def compare_Products(self):

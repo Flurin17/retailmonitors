@@ -36,7 +36,7 @@ class monitor:
     def load_proxies(self):
         if self.proxies != []:
             self.session = requests.Session()
-            #self.session.proxies = random.choice(self.proxies)
+            self.session.proxies = random.choice(self.proxies)
         else:
             self.session = requests.Session()
 
