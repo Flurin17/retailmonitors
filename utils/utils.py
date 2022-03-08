@@ -49,7 +49,7 @@ class logger:
             hook.send("@everyone")
         except:
             self.info("Can't send webhook")
-            
+
         self.info("Sent everyone webhook")
 
 
@@ -63,6 +63,7 @@ class logger:
         embed.set_author(name=product["name"], url=product["link"])
         embed.add_field(name='Price', value=str(product["price"]))
         embed.add_field(name='Links', value=product["link"])
+        embed.add_field(name='Delivery', value=product["available"])
         embed.set_thumbnail(product["picture"])
 
 
