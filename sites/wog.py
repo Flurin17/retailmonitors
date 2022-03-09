@@ -100,7 +100,7 @@ class monitor:
             self.log.info(differentCard)
             self.send_webhooks(differentCard)
 
-        self.allCardsOld = self.allProducts
+        self.allProductsOld = self.allProducts
 
     def main(self):
         self.firstTime = True
