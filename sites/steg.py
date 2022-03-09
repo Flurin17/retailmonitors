@@ -29,8 +29,8 @@ class monitor:
     
     def send_webhooks(self, product):
         for webhook in self.webhooks:
-            self.log.sendWebhook(webhook)
-
+            self.log.sendWebhook(product, webhook)
+            
     def load_proxies(self):
         if self.proxies != []:
             self.session = requests.Session()
