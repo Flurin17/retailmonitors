@@ -92,6 +92,20 @@ class logger:
         except:
             self.info("Can't send webhook")
 
+    def sendMonitorFailed(self, webhook, amountRunning):
+        hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
+        embed = Embed(
+            description='Monitor failed please check',
+            color=0x00559d,
+            timestamp='now'  # sets the timestamp to current time
+            )
+        embed.add_field(name='Running monitors', value=amountRunning)
+
+
+        try:
+            hook.send(embed=embed)
+        except:
+            self.info("Can't send webhook")
 
 
 class proxy:

@@ -96,9 +96,17 @@ class monitor:
             self.allProductsOld = self.allProducts
 
         differentCards = [i for i in self.allProducts if i not in self.allProductsOld]
-        for differentCard in differentCards:
-            self.log.info(differentCard)
-            self.send_webhooks(differentCard)
+        for differentCard in differentCards:          
+            try:
+                differentCard['price'] = float(differentCard['price'].replace("CHF ", ""))
+            except:
+                differentCard['price'] = 1000
+
+            if int(differentCard['price']) > 400:
+                self.log.info(differentCard)
+                self.send_webhooks(differentCard)
+            else:
+                self.log.info(f"{differentCard['name']} is available for {differentCard['price']} CHF but too low")
 
         self.allProductsOld = self.allProducts
 

@@ -19,6 +19,7 @@ from sites.steg import monitor as StegMonitor
 from sites.techmania import monitor as TechmaniaMonitor
 from sites.softridge import monitor as SoftridgeMonitor
 from sites.mediamarkt import monitor as MediamarktMonitor
+from utils.monitorChecker import monitor as MonitorChecker
 
 class main():
     def __init__(self) -> None:
@@ -62,7 +63,7 @@ class main():
 
     def start_monitors(self):
         ctypes.windll.kernel32.SetConsoleTitleW(f"RetailsMonitoring - {len(self.sites)} Monitors")
-
+        amountRunning = len(self.sites) + 1
         for site in self.sites:
 
             #task changing stuff
@@ -153,4 +154,16 @@ class main():
                 except Exception as e:
                     print(f">> FATAL ERROR: Could not start monitor {e}")
                     sys.exit()
+
+
+
+            #special monitors
+            elif site["site"] == "monitorchecker":
+                try:
+                    MonitorChecker(webhooks, amountRunning).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
 main().start()
