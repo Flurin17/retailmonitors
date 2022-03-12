@@ -44,7 +44,7 @@ class monitor:
         allProducts = self.allproducts['products']
         for product in allProducts:
             name = product["name"]
-            url = product["url"]
+            url = "https://www.steg-electronics.ch/" + product["url"]
             picture = product["image"]
             
             price = "Unknown"
