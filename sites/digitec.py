@@ -135,7 +135,7 @@ class monitor:
                 self.send_webhooks(differentCard)
 
             else:
-                self.log.info("Found Change but is bad {} {}".format(differentCard["name"],differentCard["delivery"]))
+                self.log.info("Found Change but is bad {} {}".format(differentCard["name"],str(differentCard["delivery"])))
         self.allCardsOld = self.allCards
 
 
