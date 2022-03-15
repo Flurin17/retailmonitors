@@ -20,6 +20,7 @@ from sites.techmania import monitor as TechmaniaMonitor
 from sites.softridge import monitor as SoftridgeMonitor
 from sites.mediamarkt import monitor as MediamarktMonitor
 from sites.melectronics import monitor as MelectronicsMonitor
+from sites.conrad import monitor as ConradMonitor
 
 
 from utils.monitorChecker import monitor as MonitorChecker
@@ -164,6 +165,16 @@ class main():
                 except Exception as e:
                     print(f">> FATAL ERROR: Could not start monitor {e}")
                     sys.exit()
+
+            elif site["site"] == "conrad":
+                try:
+                    ConradMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
+
 
             #special monitors
             elif site["site"] == "monitorchecker":
