@@ -26,6 +26,10 @@ class monitor:
         self.store = product["site"]
         randomString = str(random.randint(0, 10000))
         self.log = logger(f"{self.product['site']}_{randomString}", self.store, self.product["nickname"])
+
+
+        self.spamLink = None
+
         pass
     
     def send_webhooks(self, product):
@@ -48,8 +52,7 @@ class monitor:
                     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
                     'Accept': '*/*',
                     'Accept-Encoding': 'gzip, deflate, br',
-                    'Connection': 'keep-alive',
-                    str(random.choice(range(11111111111,99999999999))):str(random.choice(range(11111111111,99999999999)))
+                    'Connection': 'keep-alive'
                 },
                 allow_redirects=False
                 )
@@ -98,8 +101,14 @@ class monitor:
 
         differentProducts = [i for i in self.allProducts if i not in self.allProductsOld]
         for differentProduct in differentProducts:
-            self.log.info(differentProduct)
-            self.send_webhooks(differentProduct)
+            if differentProduct["link"] != self.spamLink:
+                self.log.info(differentProduct)
+                self.send_webhooks(differentProduct)
+
+                self.spamLink = differentProduct["link"]
+            else:
+                self.log.info("SPAM for {} on {}".format(differentProduct["name"], differentProduct["store"]))
+
 
         self.allProductsOld = self.allProducts
 
