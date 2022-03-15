@@ -80,6 +80,7 @@ class monitor:
                     'Sec-Fetch-Dest': 'empty',
                     'Referer': 'https://www.alcom.ch/',
                     'Accept-Language': 'de-DE,de;q=0.9,en;q=0.8',
+                    str(random.choice(range(11111111111,99999999999))):str(random.choice(range(11111111111,99999999999)))
                 }
                 )
             except Exception as e:

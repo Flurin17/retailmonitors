@@ -22,6 +22,7 @@ from sites.mediamarkt import monitor as MediamarktMonitor
 from sites.melectronics import monitor as MelectronicsMonitor
 from sites.conrad import monitor as ConradMonitor
 from sites.alcom import monitor as AlcomMonitor
+from sites.pcostschweiz import monitor as PcostschweizMonitor
 
 from utils.monitorChecker import monitor as MonitorChecker
 class main():
@@ -181,6 +182,16 @@ class main():
                 except Exception as e:
                     print(f">> FATAL ERROR: Could not start monitor {e}")
                     sys.exit()
+
+            elif site["site"] == "pcostschweiz":
+                try:
+                    PcostschweizMonitor(site, webhooks, self.proxies).start()
+
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
+
+
 
             #special monitors
             elif site["site"] == "monitorchecker":

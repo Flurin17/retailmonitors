@@ -83,6 +83,7 @@ class monitor:
                     'Sec-Fetch-User': '?1',
                     'Sec-Fetch-Dest': 'document',
                     'Accept-Language': 'de-DE,de;q=0.9',
+                    str(random.choice(range(11111111111,99999999999))):str(random.choice(range(11111111111,99999999999)))
                 }
                 )
             except Exception as e:
@@ -91,9 +92,14 @@ class monitor:
                 continue
             
             if r.status_code == 200:
-                self.allproducts = r.json()
-                self.find_all_products()
-                break
+                try:
+                    self.allproducts = r.json()
+                    self.find_all_products()
+                    break
+                except Exception as e:
+                    self.log.info(e)
+                    self.load_proxies()
+                    continue
             else:
                 self.load_proxies()
                 self.log.info(r.status_code)
