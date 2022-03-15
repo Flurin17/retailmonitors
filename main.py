@@ -19,8 +19,10 @@ from sites.steg import monitor as StegMonitor
 from sites.techmania import monitor as TechmaniaMonitor
 from sites.softridge import monitor as SoftridgeMonitor
 from sites.mediamarkt import monitor as MediamarktMonitor
-from utils.monitorChecker import monitor as MonitorChecker
+from sites.melectronics import monitor as MelectronicsMonitor
 
+
+from utils.monitorChecker import monitor as MonitorChecker
 class main():
     def __init__(self) -> None:
         pass
@@ -155,7 +157,13 @@ class main():
                     print(f">> FATAL ERROR: Could not start monitor {e}")
                     sys.exit()
 
+            elif site["site"] == "melectronics":
+                try:
+                    MelectronicsMonitor(site, webhooks, self.proxies).start()
 
+                except Exception as e:
+                    print(f">> FATAL ERROR: Could not start monitor {e}")
+                    sys.exit()
 
             #special monitors
             elif site["site"] == "monitorchecker":
