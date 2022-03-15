@@ -27,7 +27,7 @@ class monitor:
         self.store = product["site"]
         randomString = str(random.randint(0, 10000))
         self.log = logger(f"{self.product['site']}_{randomString}", self.store, self.product["nickname"])
-        
+        self.spamLink = None
     
     def send_webhooks(self, product):
         for webhook in self.webhooks:
@@ -110,8 +110,13 @@ class monitor:
 
         differentCards = [i for i in self.allCards if i not in self.allCardsOld]
         for differentCard in differentCards:
-            self.log.info(differentCard)
-            self.send_webhooks(differentCard)
+            if differentCard["link"] != self.spamLink:
+                self.log.info(differentCard)
+                self.send_webhooks(differentCard)
+                self.spamLink = differentCard["link"]
+            else:
+                self.log.info("SPAM for {} on {}".format(differentCard["name"], differentCard["store"]))
+
 
         self.allCardsOld = self.allCards
 
