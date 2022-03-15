@@ -116,9 +116,14 @@ class monitor:
                 continue
             
             if r.status_code == 200:
-                self.allproducts = r.json()
-                self.find_all_products()
-                break
+                try:
+                    self.allproducts = r.json()
+                    self.find_all_products()
+                    break
+                except Exception as e:
+                    self.log.info(e)
+                    self.load_proxies()
+                    continue
             else:
                 self.load_proxies()
                 self.log.info(r.status_code)

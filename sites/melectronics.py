@@ -66,7 +66,7 @@ class monitor:
         while True:
             try:
                 r = self.session.get(
-                url="https://www.melectronics.ch/jsapi/v1/de/products/search?q=ps5&pageSize=69&currentPage=0",
+                url=f"https://www.melectronics.ch/jsapi/v1/de/products/search?q={self.product['url']}&pageSize=69&currentPage=0",
                 headers = {
                     'Connection': 'keep-alive',
                     'Pragma': 'no-cache',
