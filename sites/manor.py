@@ -58,8 +58,13 @@ class monitor:
                 continue
             
             if r.status_code == 200:
-                self.send_webhooks(r.url)
-                break
+                if 'Nicht verfügbar online' not in r.text:
+                    self.send_webhooks(r.url)
+                    break
+                else:
+                    self.log.info('Product is not available online')
+                    time.sleep(self.product["delay"])
+                    continue
             else:
                 self.load_proxies()
                 time.sleep(self.product["delay"])
