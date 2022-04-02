@@ -54,28 +54,39 @@ class logger:
 
 
     def sendWebhook(self, product, webhook):
-        hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png", username=product["store"])
-        embed = Embed(
-            description='{} for {}'.format(product["name"], str(product["price"])),
-            color=0x00559d,
-            timestamp='now'  # sets the timestamp to current time
-            )
-        embed.set_author(name=product["name"], url=product["link"])
-        embed.add_field(name='Price', value=str(product["price"]))
-        embed.add_field(name='Links', value=product["link"])
-        embed.add_field(name='Delivery', value=product["available"])
-        embed.set_thumbnail(product["picture"])
-
-
-        now = datetime.now()
-        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-        embed.set_footer(text=f'{product["store"]} at {dt_string}', icon_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
         try:
-            hook.send(embed=embed)
+            price = int(product.price)
+            if price > 400:
+                sendwebhook = True
+            else:
+                sendwebhook = False
         except:
-            self.info("Can't send webhook")
+            sendwebhook = True
+            self.info("Unkown price sending webhook")
+            
+        if sendwebhook:
+            hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png", username=product["store"])
+            embed = Embed(
+                description='{} for {}'.format(product["name"], str(product["price"])),
+                color=0x00559d,
+                timestamp='now'  # sets the timestamp to current time
+                )
+            embed.set_author(name=product["name"], url=product["link"])
+            embed.add_field(name='Price', value=str(product["price"]))
+            embed.add_field(name='Links', value=product["link"])
+            embed.add_field(name='Delivery', value=product["available"])
+            embed.set_thumbnail(product["picture"])
 
-        self.info("Sent webhook for {} on {}".format(product["name"], product["store"]))
+
+            now = datetime.now()
+            dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+            embed.set_footer(text=f'{product["store"]} at {dt_string}', icon_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
+            try:
+                hook.send(embed=embed)
+            except:
+                self.info("Can't send webhook")
+
+            self.info("Sent webhook for {} on {}".format(product["name"], product["store"]))
     
     def sendBlankWebhook(self, webhook, link):
         hook = Webhook(webhook, avatar_url="https://cdn.discordapp.com/attachments/637694919871430657/936708268317868033/celar-logo-small.png")
