@@ -103,7 +103,7 @@ class monitor:
             else:
                 self.load_proxies()
                 self.log.info(r.status_code)
-                self.log.info(r.text)
+                time.sleep(10)
     
     def compareCards(self):
         if self.firstTime:
