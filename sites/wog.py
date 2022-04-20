@@ -70,8 +70,15 @@ class monitor:
         self.productsList = self.soup.find("div", {"id":"productListContainer"})
         self.products = self.productsList.find_all("div", {"class":"tr"})
         for product in self.products:
-            url = product.find_all("a")[0]['href']
-            name = product.find_all("a")[0]['title']
+            try:
+                url = product.find_all("a")[0]['href'] 
+            except:
+                url = "https://www.wog.ch/index.cfm/search/type/Games/term/PS5/orderBy/priceDesc/maxRows/69"
+
+            try:
+                name = product.find_all("a")[0]['title']
+            except:
+                name = "Unkown"
 
             price = product.find("div", {"class":"product-list-price"}).find("a").text
             
