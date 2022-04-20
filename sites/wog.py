@@ -80,7 +80,13 @@ class monitor:
             except:
                 name = "Unkown"
 
-            price = product.find("div", {"class":"product-list-price"}).find("a").text
+            try:
+                price = product.find("div", {"class":"product-list-price"}).find("a").text
+            except:
+                try:
+                    price = product.find("div", {"class":"product-list-price"}).text
+                except:
+                    self.log.info("Price not Found")
             
             picture = "https://www.wog.ch" + product.find("img")['src']
 
